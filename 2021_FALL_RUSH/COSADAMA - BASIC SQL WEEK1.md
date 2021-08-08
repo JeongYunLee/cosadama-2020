@@ -1,6 +1,7 @@
 
 # COSADAMA - BASIC SQL WEEK1
-작성자: 정찬, 이정윤 
+작성자: 정찬, 이정윤   
+
 참고자료: SQL/SB(MySQL)기본부터 파이썬/데이터분석 활용까지!(잔재미코딩), 부스트코드 1-1 SQL 및 관계형 데이터베이스(모원서), SQLite3로 가볍게 배우는 데이터베이스: SQL 기초 실습(최용)
 
 ### 0. SQL을 배우는 이유   
@@ -36,7 +37,7 @@ RDBMS계열에 속하는 데이터 베이스 프로그램들을 유사한 명령
 ### 1. MySQL 다운로드 
 
 동영상 강의에서 안내하는 순서대로 진행하면 됩니다. 
-1.1 [Window OS](https://www.boostcourse.org/ds102/lecture/373285/?isDesc=false)
+1.1 [Window OS](https://www.boostcourse.org/ds102/lecture/373285/?isDesc=false)  
 1.2 [Mac OS](https://www.boostcourse.org/ds102/lecture/373286/?isDesc=false)
 
 
@@ -111,7 +112,7 @@ CATEGORY, TYPE, BRAND, PRODUCT_NAME, PRICE는 유일하지 않기 때문에 PRIM
 | 날짜형 | `TIME` | 시간(hh:mm:ss) 형태의 기간 표현 데이터 타입(3byte) |
 | 날짜형 | `DATETIME` | 날짜와 시간 (YYYY-MM-DD hh:mm:ss) 형태의 기간 표현 데이터 타입(8byte) |
 | 날짜형 | `TIMESTAMP` | 날짜와 시간 형태의 기간 표현 데이터 타입(4byte) 시스템 변경 시 자동으로 그 날짜와 시간이 저장 |
-| 날짜형 | `YEAR(n)` | 년도 표현 데이터 타입(1byte) n은 2또는 4로 지정가능. |
+| 날짜형 | `YEAR(n)` | 도 표현 데이터 타입(1byte) n은 2또는 4로 지정가능. |
 
 
 
@@ -122,10 +123,11 @@ CATEGORY, TYPE, BRAND, PRODUCT_NAME, PRICE는 유일하지 않기 때문에 PRIM
 ### 3. DB, TABLE 만들기 
 동영상 강의를 시청하면서 workbench로 실습해보세요.   (DCL, TCL제외)
 3.1 SQL 명령어 
-    - [SQL 기본 명령어](https://www.boostcourse.org/ds102/lecture/373315/?isDesc=false) 
-    - [데이터 정의어(DDL)](https://www.boostcourse.org/ds102/lecture/373320/?isDesc=false)
-    - [데이터 조작어(DML)](https://www.boostcourse.org/ds102/lecture/373325/?isDesc=false)
+* [SQL 기본 명령어](https://www.boostcourse.org/ds102/lecture/373315/?isDesc=false) 
+* [데이터 정의어(DDL)](https://www.boostcourse.org/ds102/lecture/373320/?isDesc=false)
+* [데이터 조작어(DML)](https://www.boostcourse.org/ds102/lecture/373325/?isDesc=false)
+
 3.2 SQL 문법
-    - [데이터 조회 (SELECT)](https://www.boostcourse.org/ds102/lecture/373356?isDesc=false)
+* [데이터 조회 (SELECT)](https://www.boostcourse.org/ds102/lecture/373356?isDesc=false)
 
 
